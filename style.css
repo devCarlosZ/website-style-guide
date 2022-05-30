@@ -1,0 +1,134 @@
+html,
+body {
+  min-width: 290;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 200px;
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul {
+  height: 88%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar li {
+  list-style: none;
+  border-bottom: solid;
+  border-bottom-width: 0px;
+  padding: 10px;
+  padding-left: 30px;
+  position: relative;
+  left: -50px;
+  width: 100%;
+  border: 1px solid;
+  border-top-width: 0px;
+  border-right: 0px;
+}
+
+#main-doc {
+  position: relative;
+  margin-left: 250px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.color-name {
+  font-size: larger;
+  font-weight: 600;
+  color: white;
+}
+
+.color-hex {
+  color: white;
+}
+
+.colors-section,
+.fonts-section,
+.text-styles {
+  border: 2px solid #99a2a2;
+  padding: 10px;
+}
+
+.color {
+  max-width: 400px;
+  min-width: 200px;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  line-height: 10px;
+}
+
+#cerise {
+  background-color: #d93f87;
+}
+
+#blackcurrant {
+  background-color: #2a1b3c;
+}
+
+#blue-gem {
+  background-color: #44318d;
+}
+
+#deluge {
+  background-color: #8265a7;
+}
+
+#casper {
+  background-color: #a4b3b6;
+}
+
+.fonts-section {
+  line-height: 10px;
+}
+
+.font-name {
+  text-decoration: underline;
+}
+
+#sora {
+  font-family: "Sora", sans-serif;
+}
+
+#open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+  font-family: "Sora", sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-family: "Sora", sans-serif;
+}
+
+
